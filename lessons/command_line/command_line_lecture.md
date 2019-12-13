@@ -69,6 +69,7 @@ This "changes directory" and makes the named directory our new working
 directory. 
 
 > Question: How could we make sure that we moved?
+>> Use the `pwd` command to see that the directory changed
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -192,6 +193,7 @@ ls -lh
 ```
 
 > What changed?
+>> the file size got easier to read - it went from 30286 to 30K - so it simplified to how many bytes
 
 If instead copying we just want to change the name of a file, we can do:
 
