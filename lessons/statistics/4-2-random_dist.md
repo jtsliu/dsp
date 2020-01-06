@@ -14,5 +14,6 @@ thinkplot.PrePlot(2)
 thinkplot.Cdfs([random_pmf, random_cdf])
 thinkplot.Config(xlabel='Numbers', ylabel='PDF/CDF')
 
-# It's easier to tell from the pdf that the distribution is uniform over testing 1000 randomized values, since CDF accumulates # the values it is a straight diagonal line
+# It's easier to tell from the pdf that the distribution is uniform over testing 1000 
+# randomized values, since CDF accumulates the values it is a straight diagonal line
 ```
