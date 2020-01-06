@@ -86,14 +86,37 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+```
+# Supposed to be Latex, but I don't think Github allows for that formatting
+P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)}\\
+\begin{align}
+P(identical \;twins \mid twin \;brother) & = \frac{P(twin \;brother \mid identical \;twin) \, P(identical \;twin)}{P(twin  \; brother)}\\
+
+&=\frac{ 
+\frac{1}{2} \cdot
+\frac{1}{300}
+}
+{
+\frac{1}{4}\cdot \frac{1}{125} + 
+\frac{1}{2}\cdot \frac{1}{300} 
+}\\
+&= 0.454545\overline{45}
+\end{align}
+
+```
+>> P(identical twins (A) given that he had a twin brother (B)) = P(Twin brother (B) given that he is identical twin) * P(Identical Twin) / P(Twin Brother)  
+Since it's given he's a twin already, the P(Twin brother (B) given that he is identical twin) = (1/2), which is probability of a boy  
+Then it's multiplied by the probability of identical twin, which is (1/300)  
+The probability of twin brother is the sum of the probabilities of both being fraternal twins and also identical twins.
+
+So the final probability is 0.454545
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics apply probabilities to random events that can be repeatable. The probabilities given to these random events are equivalent to the long-term frequency of said event. Bayesian statistics mean you can apply probabilities to represent the uncertainty in any event or hypothesis you may have.
 
 ---
 
